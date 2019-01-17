@@ -1,0 +1,25 @@
+.sidebar  {
+  width: 30%;
+  float: left;
+  background-color: magenta;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row p {
+  background-color: yellow;
+  text-align: left;
+font-style: normal;
+}
+.column h2 {
+  font-weight: bold;
+}
